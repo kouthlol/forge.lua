@@ -1,5 +1,4 @@
 --[[ THE FORGE ULTIMATE V4 - Ultra Anti-Ban + Premium UI ]]
-return function()
 local Players,LP=game:GetService("Players"),game:GetService("Players").LocalPlayer
 local Char,Hum,Root=LP.Character or LP.CharacterAdded:Wait()
 Hum,Root=Char:WaitForChild("Humanoid"),Char:WaitForChild("HumanoidRootPart")
@@ -221,4 +220,3 @@ end)
 
 N("🔥 THE FORGE ULTIMATE V4 LOADED!")
 print("🔥 Forge V4 | M=Mine G=Forge F=Fly N=Noclip RightShift=UI")
-end
